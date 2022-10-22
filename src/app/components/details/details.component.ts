@@ -56,10 +56,8 @@ export class DetailsComponent implements OnInit, OnDestroy {
     if (this.gameSub) {
       this.gameSub.unsubscribe();
     }
-
     if (this.routeSub) {
       this.routeSub.unsubscribe();
     }
   }
-
 }
